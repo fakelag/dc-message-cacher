@@ -1,0 +1,17 @@
+{
+	"name": "dc-message-cacher",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "set DISCORD_TOKEN=YOUR_TOKEN_HEREg&&node -r esm index.js"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"discord.js": "^11.5.1",
+		"esm": "^3.2.25",
+		"moment": "^2.24.0"
+	}
+}
